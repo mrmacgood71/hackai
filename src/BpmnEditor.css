@@ -1,0 +1,29 @@
+.editor-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toolbar {
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .bpmn-container {
+    flex: 1;
+    min-height: 0;
+  }
+  
+  .xml-preview {
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    max-height: 300px;
+    overflow: auto;
+  }
+  
+  .xml-preview pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
